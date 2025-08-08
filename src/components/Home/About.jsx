@@ -20,43 +20,22 @@ const About = () => {
                   LET ME <span className="yellow"> INTRODUCE </span> MYSELF
                 </h1>
                 <p className="home-about-body">
-                 Hi, my name is <span className="yellow">Avanish Srivastava </span>
-                 and I'm from <span className="yellow"> Gorakhpur, UttarPradesh, India.</span>
+                 Hi, my name is <span className="yellow">Kiranpreet Kaur </span>
+                 and I'm from <span className="yellow"> Ontario, Canada.</span>
                 <br />
                 <br />
-                I am currently a 4th-year undergraduate in the Computer Science and Engineering Concentration at Pranveer Singh Institute of Technology, Kanpur.
+                Experienced Full Stack Developer with expertise in <b className="yellow"> Drupal,Python, Laravel, and JavaScript frameworks </b> including React and Vue.js. I specialize in building secure, scalable web applications and optimizing system architecture for peak performance.
                 <br />
                 <br />
-                  As a
-                  <b className="yellow"> Full-Stack </b>developer,  
-                  I enjoy tackling new challenges and continuously expanding my skillset.
+                  With strong proficiency in <b className="yellow">AWS cloud</b> services and containerization technologies, I deliver robust solutions from concept through deployment.
                   <br />
-                  <br />I am proficient in
-                    <b className="yellow"> C++ </b>
-                    as well as have knowledge in programming languages such as C, Python, Javascript
-                  <b className="yellow"> and Solidity.</b>
+                  <br />Strong command of JavaScript and modern frameworks, including <b className="yellow">React, Angular, and Vue.js,</b> and adept at REST API development and integration. Experienced with Amazon Web Services (AWS) for application deployment and management
                   <br />
                   <br />
-                  I have a passion for working
-                  with <b className="yellow">Node.js, MongoDB,</b> and
-                  <i>
-                    <b className="yellow">
-                      {" "}
-                      modern Javascript libraries and frameworks
-                    </b>
-                  </i>
-                  &nbsp; like
-                  <i>
-                    <b className="yellow"> React.js</b>
-                  </i>
+                  bringing proven problem-solving abilities to resolve complex application issues effectively. Known for high attention to detail, excellent communication skills, and a collaborative approach to delivering quality software solutions.
                   <br />
                   <br />
-                  I am also interested in building new
-                  <i>
-                    <b className="yellow"> Web Technologies and Products, </b>
-                    as well as exploring areas related to
-                    <b className="yellow"> Blockchain.</b>
-                  </i>
+                  Committed to continuous learning and improvement, with a solid foundation in modern web development trends and technologies.
                   <br />
                   
                 </p>
@@ -76,7 +55,7 @@ const About = () => {
                 <ul className="home-about-social-links">
                   <li className="social-icons">
                     <a
-                      href="https://github.com/Avanishsri31"
+                      href="https://github.com/kiran-preet?tab=repositories"
                       target="_blank"
                       rel="noreferrer"
                       className="icon-colour  home-social-icons"
@@ -87,35 +66,13 @@ const About = () => {
                   </li>
                   <li className="social-icons">
                     <a
-                      href="https://twitter.com/Avanish66224549"
-                      target="_blank"
-                      rel="noreferrer"
-                      className="icon-colour  home-social-icons"
-                      aria-label="twitter"
-                    >
-                      <AiOutlineTwitter />
-                    </a>
-                  </li>
-                  <li className="social-icons">
-                    <a
-                      href="https://www.linkedin.com/in/avanish-srivastava-533035203/"
+                      href="https://www.linkedin.com/in/kiranpreet-kaur-b672ab215/"
                       target="_blank"
                       rel="noreferrer"
                       className="icon-colour  home-social-icons"
                       aria-label="linkedin"
                     >
                       <FaLinkedinIn />
-                    </a>
-                  </li>
-                  <li className="social-icons">
-                    <a
-                      href="https://www.instagram.com/avanishsri31/"
-                      target="_blank"
-                      rel="noreferrer"
-                      className="icon-colour home-social-icons"
-                      aria-label="instagram"
-                    >
-                      <AiFillInstagram />
                     </a>
                   </li>
                 </ul>

@@ -1,11 +1,6 @@
 import React from 'react'
 import { Container, Row, Col } from "react-bootstrap";
-import pic1 from '../assets/pic1.jpg'
-import pic2 from '../assets/pic2.jpg'
-import pic3 from '../assets/pic3.jpg'
-import pic4 from '../assets/pic4.jpg'
-import pic5 from '../assets/pic5.jpg'
-import pic6 from '../assets/pic6.jpg'
+import LaptopImg from "../assets/home-main.svg";
 import Particle from '../components/Particle';
 import About from '../components/Home/About';
 import Type from '../components/Home/Type';
@@ -28,7 +23,7 @@ const Home = () => {
 
               <h1 className="heading-name">
                 I'M
-                <strong className="main-name"> Avanish Srivastava</strong>
+                <strong className="main-name"> Kiranpreet Kaur</strong>
               </h1>
 
               <div style={{ padding: 50, textAlign: "left" }}>
@@ -43,28 +38,9 @@ const Home = () => {
                 className="img-fluid"
                 style={{ maxHeight: "450px", borderRadius: "50%" }}
               /> */}
-               <div class="circular-slider">
-    <div class="slider-content">
-      <div class="slider-item">
-        <img src={pic1} alt=''/>
-      </div>
-      <div class="slider-item">
-        <img src={pic2} alt='' />
-      </div>
-      <div class="slider-item">
-        <img src={pic3} alt='' />
-      </div>
-      <div class="slider-item">
-        <img src={pic4} alt='' />
-      </div>
-      <div class="slider-item">
-        <img src={pic5} alt='' />
-      </div>
-      <div class="slider-item">
-        <img src={pic6} alt='' />
-      </div>
-    </div>
-  </div>
+               <div class="">
+                  <img src={LaptopImg} className="img-fluid" alt="avatar" />
+                </div>
             </Col>
           </Row>
         </Container>

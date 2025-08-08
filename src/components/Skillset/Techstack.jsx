@@ -7,46 +7,67 @@ import {
   DiGit,
 } from "react-icons/di";
 import {
-  SiCss3,
-  SiSass,
-  SiSolidity,
-  SiRedux,
-  SiMongodb,
-  SiHtml5
+  SiMysql,
+  SiAmazonapigateway,
+  SiVuedotjs,
+  SiLaravel,
+  SiPhp,
+  SiDrupal,
+  SiAwsamplify,
+  SiAwslambda,
+  SiAmazondynamodb,
+  SiAmazonecs,
+  SiAmazons3,
+  SiPython
 } from "react-icons/si";
 
 const Techstack = () => {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <SiHtml5 />
+        <SiLaravel /> <br/>Laravel
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiJavascript1 />
+        <SiPhp /> <br />PHP
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs />
+        <SiVuedotjs /> <br/>Vue.js
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiReact />
+        <DiJavascript1 /> <br/>JavaScript
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiRedux />
+        <SiAmazonapigateway /><br/>AWS API Gateway
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiMongodb />
+        <SiAmazonecs /><br/>AWS ECS
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiSass />
+        <SiAwsamplify /><br/>AWS Amplify
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiSolidity />
+        <SiAwslambda /><br/>AWS Lambda
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiCss3 />
+        <SiAmazons3 /><br/>AWS S3
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
+        <SiAmazondynamodb /><br/>AWS DynamoDB
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiReact /><br/>React
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiMysql /><br/>MySQL
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiPython /><br/>Python
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiDrupal /><br/>Drupal
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiNodejs /> <br/>Node.js
       </Col>
     </Row>
   );

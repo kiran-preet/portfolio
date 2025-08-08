@@ -6,7 +6,7 @@ import {
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
-import logo from "../../assets/sLogo.png";
+import logo from "../../assets/sLogo.gif";
 
 const Footer = () => {
     let date = new Date();
@@ -25,7 +25,7 @@ const Footer = () => {
             <ul className="footer-icons">
               <li className="social-icons">
                 <a
-                  href="https://github.com/Avanishsri31"
+                  href="https://github.com/kiran-preet?tab=repositories"
                   style={{ color: "white" }}
                   target="_blank" 
                   rel="noopener noreferrer"
@@ -36,35 +36,13 @@ const Footer = () => {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/Avanish66224549"
-                  style={{ color: "white" }}
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  aria-label="twitter"
-                >
-                  <AiOutlineTwitter />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.linkedin.com/in/avanish-srivastava-533035203/"
+                  href="https://www.linkedin.com/in/kiranpreet-kaur-b672ab215/"
                   style={{ color: "white" }}
                   target="_blank" 
                   rel="noopener noreferrer"
                   aria-label="linkedin"
                 >
                   <FaLinkedinIn />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.instagram.com/avanishsri31/"
-                  style={{ color: "white" }}
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  aria-label="instagram"
-                >
-                  <AiFillInstagram />
                 </a>
               </li>
             </ul>

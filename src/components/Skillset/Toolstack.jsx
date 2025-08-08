@@ -3,28 +3,30 @@ import { Col, Row } from "react-bootstrap";
 import {
   SiVisualstudiocode,
   SiPostman,
-  SiRender,
+  SiDocker,
   SiVercel,
-  SiNetlify
+  SiNetlify,
+  SiJira,
+  SiBitbucket
 } from "react-icons/si";
 
 const Toolstack = () => {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <SiVisualstudiocode />
+        <SiVisualstudiocode /> <br/>VS Code
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiPostman />
+        <SiPostman /><br/>Postman
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiVercel />
+        <SiDocker /><br/>Docker
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiNetlify />
+        <SiJira /><br/>Jira
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiRender />
+        <SiBitbucket /><br/>Bitbucket
       </Col>
     </Row>
   );
