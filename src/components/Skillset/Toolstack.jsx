@@ -1,11 +1,11 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
+import { DiGit } from "react-icons/di";
 import {
   SiVisualstudiocode,
   SiPostman,
   SiDocker,
   SiVercel,
-  SiNetlify,
   SiJira,
   SiBitbucket
 } from "react-icons/si";
@@ -15,6 +15,9 @@ const Toolstack = () => {
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
         <SiVisualstudiocode /> <br/>VS Code
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiGit /><br/>Git
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiPostman /><br/>Postman
@@ -27,6 +30,9 @@ const Toolstack = () => {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiBitbucket /><br/>Bitbucket
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiVercel /><br/>Vercel
       </Col>
     </Row>
   );

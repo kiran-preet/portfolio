@@ -3,8 +3,7 @@ import { Col, Row } from "react-bootstrap";
 import {
   DiJavascript1,
   DiReact,
-  DiNodejs,
-  DiGit,
+  DiNodejs
 } from "react-icons/di";
 import {
   SiMysql,
